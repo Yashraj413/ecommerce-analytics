@@ -1,8 +1,6 @@
 # E-Commerce Customer Analytics Platform
 
 **Tech Stack:** Python · SQL (SQLite/PostgreSQL) · Power BI · XGBoost · Prophet · BG/NBD
-
-> **Resume bullet:**
 > *Engineered an end-to-end customer analytics platform on 100K+ real e-commerce transactions; applied RFM segmentation identifying Champions and Loyal Customers contributing ~70% of total revenue; built a BG/NBD CLV model for 12-month value prediction, XGBoost churn classifier (AUC ~0.83) with SHAP explainability, Prophet sales forecast, and ABC product classification — delivered via a 4-tab Power BI dashboard.*
 
 ---
@@ -169,27 +167,6 @@ Need Attention · About to Sleep · At Risk · Hibernating · Lost
 | Customer Segments | RFM treemap, R×F heatmap, scatter plot, segment drilldown |
 | Churn Risk | Donut by risk tier, churn probability scatter, at-risk customer table |
 | Forecast + Products | 90-day forecast line, ABC bar chart, review vs revenue scatter |
-
----
-
-## Interview Talking Points
-
-**Q: Why RFM instead of clustering?**
-RFM produces actionable, business-readable segments. A marketing team can immediately
-act on "Champions" vs "At Risk" — they can't act on "Cluster 3".
-
-**Q: Why BG/NBD for CLV?**
-It's the industry-standard probabilistic model for non-contractual settings (e-commerce).
-It properly handles the fact that we don't observe when a customer becomes inactive.
-
-**Q: Why XGBoost for churn?**
-Handles mixed feature types, class imbalance (scale_pos_weight), and gives us
-SHAP values for regulatory-grade explainability. Outperforms logistic regression
-on this dataset with ~15% improvement in AUC.
-
-**Q: What would you do with more time?**
-(1) Real-time scoring via a FastAPI endpoint, (2) A/B test the retention campaigns
-triggered by churn risk tier, (3) Add geospatial analysis at the zip-code level.
 
 ---
 
