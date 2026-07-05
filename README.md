@@ -1,7 +1,7 @@
 # E-Commerce Customer Analytics Platform
 
 **Tech Stack:** Python · SQL (SQLite/PostgreSQL) · Power BI · XGBoost · Prophet · BG/NBD
-> *Engineered an end-to-end customer analytics platform on 100K+ real e-commerce transactions; applied RFM segmentation identifying Champions and Loyal Customers contributing ~70% of total revenue; built a BG/NBD CLV model for 12-month value prediction, XGBoost churn classifier (AUC ~0.83) with SHAP explainability, Prophet sales forecast, and ABC product classification — delivered via a 4-tab Power BI dashboard.*
+> *Engineered an end-to-end customer analytics platform on 100K+ real e-commerce transactions; applied RFM segmentation identifying Champions and Loyal Customers contributing ~70% of total revenue; built a BG/NBD CLV model for 12-month value prediction, XGBoost churn classifier (AUC ~0.83) with SHAP explainability, Prophet sales forecast, and ABC product classification which is delivered via a 4-tab Power BI dashboard.*
 
 ---
 
