@@ -140,7 +140,7 @@ Need Attention · About to Sleep · At Risk · Hibernating · Lost
 - **Gamma-Gamma model:** predicts expected spend per transaction
 - **Output:** 12-month CLV in R$ + probability alive + CLV tier (Low/Mid/High)
 
-### Churn Analysis (`src/churn.py`)
+### Churn Analysis (`src/churn.py`) 
 - **Label:** churned = no order in last 180 days
 - **Features:** 17 behavioral + engagement features
 - **Model:** XGBoost with `scale_pos_weight` for class imbalance
