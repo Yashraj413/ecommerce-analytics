@@ -284,13 +284,3 @@ Forecast line:                   #2980b9 (blue)
 3. Save screenshots to `powerbi_screenshots/` for GitHub README
 
 ---
-
-## Power BI File Checklist
-
-- [ ] All 6 CSVs imported and typed correctly
-- [ ] 2 relationships created in Model view
-- [ ] All 10 DAX measures created
-- [ ] 4 report pages built
-- [ ] Slicers working cross-page
-- [ ] File saved as .pbix
-- [ ] Screenshots taken for GitHub
