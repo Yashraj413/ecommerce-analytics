@@ -16,4 +16,4 @@ python src/product_performance.py
 python src/generate_dashboard.py
 
 echo ""
-echo "Done! Open outputs/dashboard.html in your browser."
+echo "Done! Open outputs/dashboard.html in your browser."    
