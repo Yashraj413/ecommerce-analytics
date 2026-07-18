@@ -276,21 +276,3 @@ Forecast line:                   #2980b9 (blue)
 **Page navigation:** Add buttons with page navigation actions for a polished look.
 
 ---
-
-## Step 7 — Publish & Screenshot
-
-1. File → Save As → `ecommerce_analytics.pbix`
-2. Take screenshots of all 4 pages at 1920×1080
-3. Save screenshots to `powerbi_screenshots/` for GitHub README
-
----
-
-## Power BI File Checklist
-
-- [ ] All 6 CSVs imported and typed correctly
-- [ ] 2 relationships created in Model view
-- [ ] All 10 DAX measures created
-- [ ] 4 report pages built
-- [ ] Slicers working cross-page
-- [ ] File saved as .pbix
-- [ ] Screenshots taken for GitHub
