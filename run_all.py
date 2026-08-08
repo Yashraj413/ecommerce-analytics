@@ -15,7 +15,6 @@ if sys.platform == "win32":
         sys.stdout.reconfigure(encoding="utf-8")
     except Exception:
         pass
-
 import time
 from datetime import datetime
 
