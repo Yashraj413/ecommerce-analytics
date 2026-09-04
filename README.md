@@ -95,7 +95,7 @@ This runs the full pipeline in sequence:
 4. Churn → churn risk scoring
 5. Forecast → 90-day revenue forecast
 6. Products → ABC classification + basket rules
-
+              
 Or run individual modules:
 ```bash
 python src/rfm.py
