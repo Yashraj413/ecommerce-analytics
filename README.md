@@ -171,5 +171,5 @@ Need Attention · About to Sleep · At Risk · Hibernating · Lost
 ---
 
 ## License
-MIT — use freely for learning and portfolio purposes.
+MIT - use freely for learning and portfolio purposes.
 Dataset: CC BY-NC-SA 4.0 (Olist / Kaggle)
