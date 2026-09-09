@@ -30,7 +30,7 @@ CSV Outputs → Power BI Dashboard (4 tabs)
 
 ## Dataset
 
-**Olist Brazilian E-Commerce** — Real transaction data from Kaggle
+**Olist Brazilian E-Commerce** - Real transaction data from Kaggle
 
 - 100,000+ orders (2016–2018)
 - 96,096 unique customers
